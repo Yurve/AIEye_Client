@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "635720863941",
+    "project_id": "test-ff71d",
+    "storage_bucket": "test-ff71d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635720863941:android:1ee21c15a371a1bb1d20ac",
+        "android_client_info": {
+          "package_name": "com.example.AIEye"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635720863941-slvsjutbhu9d74ocn77il4pq964s7fik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyW1zKSGnDYIqwJC7K4ToFOk_tUcfWeME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635720863941-slvsjutbhu9d74ocn77il4pq964s7fik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

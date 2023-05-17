@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">AIEye</string>
+    <string name="email">Email 을 적어주세요</string>
+    <string name="hint_">비밀번호</string>
+    <string name="hint__">비밀번호를 한번 더 입력하세요</string>
+    <string name="register">회원가입</string>
+    <string name="login">자동 로그인</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button">Button</string>
+    <string name="handshake1" tools:ignore="Typos">HandShake1</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="log_in">LOG IN</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Password Again</string>
+    <string name="example_mail_com">Example@mail.com</string>
+    <string name="continue_to_account">Continue to Account</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="todo">TODO</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="go_register">REGISTER</string>
+    <string name="let_s_get_you_started">Let\'s Get You Started</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="existing_member">Existing Member?</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".sign.LoginFragment">
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/handshake1"
+        android:src="@drawable/header" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:text="@string/welcome_back"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="330dp"
+        android:text="@string/log_in"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/signInEmail"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        android:autofillHints=""
+        android:background="#ffffff"
+        android:drawableStart="@drawable/mail"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="@string/example_mail_com"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:textColor="#FF000000"
+        android:textColorHint="#757575"
+        tools:ignore="LabelFor,RtlSymmetry,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/signInPassword"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="480dp"
+        android:autofillHints=""
+        android:background="#ffffff"
+        android:drawableStart="@drawable/lock"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:textColor="#FF000000"
+        android:textColorHint="#757575"
+        tools:ignore="LabelFor,RtlSymmetry,SpeakableTextPresentCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginButton"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="560dp"
+        android:background="#000000"
+        android:text="@string/continue_to_account"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/don_t_have_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="660dp"
+        android:text="@string/don_t_have_an_account"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/goRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="647dp"
+        android:background="@android:color/transparent"
+        android:text="@string/go_register"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+</FrameLayout>
